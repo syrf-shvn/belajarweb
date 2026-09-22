@@ -1,0 +1,11 @@
+/* di dalam file style.css */
+body {
+  margin: 0;
+  background-color: #f5fde0;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+h1 {
+  color: rgb(132, 165, 104);
+  text-align: center;
+  font-size: 75px;
+}

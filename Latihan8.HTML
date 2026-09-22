@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body>
+    <form action="/proses" method="post">
+        <label>Nama:</label>
+        <input type="text" name="Nama">
+        <br>
+        <label>Email:</label>
+        <input type="email" name="Email">
+        <br>
+        <label>Password:</label>
+        <input type="password" name="password">
+        <br>
+        <textarea name="pesan" rows="4" cols="40"></textarea>
+        <br>
+        <Label>Jenis Kelamin:</label>
+        <input type="radio" name="gender" value="laki-laki"> Laki-laki
+        <input type="radio" name="gender" value="perempuan"> Perempuan
+    
+        <br>
+        <label>Hobi:</label>
+        <input type="checkbox" name="Hobi" value="Membaca"> Membaca
+        <input type="checkbox" name="Hobi" value="Bengong"> Bengong
+        <input type="checkbox" name="Hobi" value="Mabar"> Mabar
+        <br>     
+        <select name="kota">
+         <option value="jakarta">Jakarta</option>
+         <option value="bandung">Bandung</option>
+         <option value="surabaya">Surabaya</option>
+        </select>
+        <br>
+        <input type="submit" value="Kirim">
+
+    </form>
+</body>
+</html>

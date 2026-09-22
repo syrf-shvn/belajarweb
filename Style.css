@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+  background-color: #ffffff;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+h1 {
+    margin-top: 255px;
+  color: #c7a07a;
+  text-align: center;
+    font-size: 65px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
