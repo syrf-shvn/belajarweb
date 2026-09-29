@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Contoh Position CSS</title>
+  <style>
+    body {
+      height: 2000px;
+      padding: 40px;
+      font-family: 'Comic Sans MS', sans-serif;
+    }
+
+    .static {
+      background-color: lightgray;
+      padding: 10px;
+    }
+
+    .relative {
+      position: relative;
+      top: 10px;
+      left: 0.5px;
+      background-color: rgb(173, 230, 178);
+      padding: 10px;
+    }
+
+    .absolute-container {
+      position: relative;
+      background-color: #a07761;
+      height: 110px;
+      margin-bottom: 30px;
+    }
+
+    .absolute {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #f2d9c3;
+      padding: 10px;
+    }
+
+    .fixed {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: #654321;
+      padding: 10px;
+      color: white;
+      height: 25px;
+    }
+
+    .sticky {
+      position: sticky;
+      top: 10px;
+      background-color: #e0bfa2;
+      padding: 10px;
+      width: 447px;
+      height: 25px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="fixed">Menu Fixed</div>
+
+  <h2 class="sticky">Judul Sticky</h2>
+
+  <div class="static">Ini posisi static (default)</div>
+  <div class="relative">Ini posisi relative
+    
+  </div>
+
+  <div class="absolute-container">
+    <p>Container dengan posisi relative</p>
+    <div class="absolute">Ini posisi absolute</div>
+  </div>
+
+</body>
+</html>
